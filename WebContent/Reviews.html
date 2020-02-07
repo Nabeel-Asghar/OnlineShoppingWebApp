@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add a Review!</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class = "card" style = "background-color:green;">
+<h1>User Review</h1>
+</div>
+<br>
+
+<div>
+<form action= "insertReview.jsp" method= "post">
+
+
+<div class = "card" style = "background-color: green;">
+<a>User Rating for Product: </a>
+<br>
+<div class = "dropdown">
+<select name = "rating">
+<option></option>
+<option value = "Excellent">Excellent</option>
+<option value = "Good">Good</option>
+<option value = "Fair">Fair</option>
+<option value = "Poor">Poor</option>
+</select>
+</div>
+<br></br>
+<a>Enter a Short Review</a>
+<br>
+<textarea rows = "3" name = "review"></textarea>
+<button class = "btn-success" type="submit">Submit</button>
+</form>
+<br>
+</div>
+</div>
+<br>
+<a href = "mainMenu.jsp" class = "btn-primary">Main Menu</a>
+
+</body>
+</html>

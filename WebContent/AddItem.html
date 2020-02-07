@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add an Item!</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<h1> Add a New Item! </h1>
+
+<div class = "card" style = "background-color: yellow;">
+<form action= "Item.jsp" method= "post">
+	Item Name: <input class = "form-control" type= "text" name="title"/><br/><br/>
+	Description: <input class = "form-control" type= "text" name="description"/><br/><br/>
+	Price: <input class = "form-control" type= "text" name="price"/><br/><br/>
+	Category: <input class = "form-control" type= "text" name="category"/><br/><br/>
+	
+	<button class = "btn-success" type="submit">Submit</button>
+	
+</form>
+</div>
+
+<a href = "mainMenu.jsp" class = "btn-primary">Main Menu</a>
+</body>
+</html>
